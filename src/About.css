@@ -3,58 +3,54 @@
 .about {
     width: 100%;
     height: 100vh;
+    text-align: left;
     padding: 150px 0px;
-    background-color: #e8e9e3;
+    background-color: rgb(10, 25, 47);
+    color:rgb(136, 146, 176);
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   }
 
   
   .about img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 200px;
+    float: right;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 3px solid #6674e5; /* Add a border with the specified color */
+    border: 3px solid #64FFDA; 
     box-shadow: rgba(26, 24, 24, 0.25) 0px 5px 10px 2px;
   }
   .about-text {
     width: 550px;
-    margin-right: 400px; /* Adjust left margin as needed */
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   }
   
   .main {
     width: 1130px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-around;
   }
   
-  .about-text h2 {
-    font-size: 50px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #195cc8;
-    font-family: 'Fraunces', serif;
-  }
-
-.about-text h5 {
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-    font-weight: bold;
-    color: #f30a0a; /* Dark font color */
-    font-family: 'Frances', serif;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid #6674e5;
-    animation: typing 1s steps(28) 1s forwards;
-    font-style: italic;
+  .about-text h6 {
+    color: #64FFDA;
+    font-size: 16px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
   }
   
+  .about-text h2 {
+    color:rgb(204, 214, 246);
+    display: flex;
+    font-size: 35px;
+    text-align: left;
+    align-items: left;
+  }
+  .about-text h5 {
+    color: rgb(136, 146, 176);
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+  }
   @keyframes typing {
     from {
       width: 0;
@@ -71,15 +67,11 @@
     font-size: 18px;
     margin-bottom: 45px;
   }
-  
-  .download-button {
-    background-color: #195cc8; /* Set the background color */
-    color: #fff; /* Set the text color */
-    padding: 10px 15px; /* Add padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add border radius */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Add a background color transition */
+
+  .cert{
+    align-items: center;
+    padding-left: 250px;
+    color: #fff;
   }
   
   .download-button {
@@ -89,21 +81,22 @@
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #195cc8;
-    border: none;
+    color: #64FFDA;
+    background-color: rgb(10, 25, 47);
+    border: 2px solid #64FFDA;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   
     &:hover {
-      background-color: #0e3a8e;
+      background-color: rgb(23, 50, 44);
     }
   }
   
   
+  /*Added*/
   
   
   

@@ -9,9 +9,9 @@
   
   .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    justify-content: right;
+    align-items: right;
+    background: linear-gradient(to right, #8ae5d0, #8f94fb);
     padding: 15px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -19,6 +19,7 @@
   
   .navbar a {
     text-decoration: none;
+    /*color: rgb(204, 214, 246);*/
     color: #fff;
     padding: 10px 15px;
     border-radius: 8px;
@@ -28,8 +29,7 @@
   
   .navbar a:hover,
   .navbar a.active {
-    background-color: #6674e5;
-    color: #fff;
+    color: #64FFDA;
   }
   
   .navbar a.active {

@@ -1,6 +1,9 @@
 /* App.css */
 .App {
   text-align: center;
+  background-color:rgb(10, 25, 47) ;
+  color:rgb(136, 146, 176);
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 }
 
 /* Navbar.css */
@@ -23,7 +26,7 @@ nav a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 13px;
 }
 
 nav a:hover {
