@@ -20,6 +20,7 @@
   align-items: start;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 100px;
   width: 100%;
   padding-left: 50px; /* Ensures consistent left alignment for text */
 }
